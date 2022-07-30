@@ -83,6 +83,8 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 
 ### Visibility
 
+- Markdown preview
+- Color highlight
 - TODO highlight
 - TODO tree
 - Word count
