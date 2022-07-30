@@ -40,6 +40,7 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 - Select multi lines (CMD + SHIFT + Click)
 - Select next (CMD + D)
 - Skip over words/end of lines (ALT + Arrows/CMD + Arrows, and camel case navigation)
+- Move line(s) up/down (ALT + Arrows)
 - Add cursor at end of lines (CMD + L)
 - Rename symbol
 - Go to bracket
