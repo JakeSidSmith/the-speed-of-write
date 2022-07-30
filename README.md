@@ -47,7 +47,7 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 - Go to type definition
 - Find all references
 - Find all implementations
-- Quick fix
+- Quick fix (CMD + Period)
 
 ## Useful VSCode settings
 
