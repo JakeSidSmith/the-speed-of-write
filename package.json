@@ -4,9 +4,10 @@
   "description": "Demo project for Async talk: The Speed of Write",
   "main": "src/index.tsx",
   "scripts": {
-    "formatcheck": "prettier --check *",
+    "lint": "eslint '**/*.{ts,tsx,js,jsx}'",
+    "format-check": "prettier --check '**/*'",
     "typecheck": "tsc --noEmit --project tsconfig.json",
-    "test": "npm run typecheck && npm run formatcheck"
+    "test": "npm run typecheck && npm run lint && npm run format-check"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,13 @@
     "typescript": "^4.7.4"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.7.1"
   }
 }
