@@ -100,7 +100,8 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 
 ### Mind blowing
 
-- GitHub copilot
+- Quokka (run JavaScript in VSCode)
+- GitHub copilot (use AI to write your code)
 
 ## Snippets and custom shortcuts
 
