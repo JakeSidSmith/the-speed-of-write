@@ -1,0 +1,42 @@
+{
+  "name": "the-speed-of-write",
+  "version": "1.0.0",
+  "description": "Demo project for Async talk: The Speed of Write",
+  "main": "src/index.tsx",
+  "scripts": {
+    "formatcheck": "prettier --check *",
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "test": "npm run typecheck && npm run formatcheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakesidsmith/the-speed-of-write.git"
+  },
+  "keywords": [
+    "write",
+    "code",
+    "fast",
+    "vscode",
+    "settings",
+    "shortcuts",
+    "extension",
+    "github",
+    "copilot"
+  ],
+  "author": "Jake 'Sid' Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakesidsmith/the-speed-of-write/issues"
+  },
+  "homepage": "https://github.com/jakesidsmith/the-speed-of-write#readme",
+  "dependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
