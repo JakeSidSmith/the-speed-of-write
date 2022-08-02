@@ -91,6 +91,7 @@
     "@typescript-eslint/type-annotation-spacing": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "@typescript-eslint/no-use-before-define": 2,
+    "@typescript-eslint/no-shadow": 2,
     "no-restricted-globals": [
       "error",
       "postMessage",
@@ -280,7 +281,8 @@
       "rules": {
         "no-undef": 0,
         "no-unused-vars": 0,
-        "no-use-before-define": 0
+        "no-use-before-define": 0,
+        "no-shadow": 0
       }
     }
   ]
