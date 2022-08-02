@@ -41,6 +41,9 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 - Select next (CMD + D)
 - Skip over words/end of lines (ALT + Arrows/CMD + Arrows, and camel case navigation)
 - Move line(s) up/down (ALT + Arrows)
+- Cut/paste a line (with a cursor on the line CMD + X and then CMD + v)
+- Quickly duplicate a line above/below (ALT + SHIFT + Arrows)
+- Add additional cursor above/below (CMD + ALT + Arrows)
 - Add cursor at end of lines (CMD + L)
 - Rename symbol
 - Go to bracket
