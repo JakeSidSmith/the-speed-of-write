@@ -114,6 +114,7 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 ## Other tools
 
 - Dot files repo
-- Github Desktop
-- Tower
+- Github Desktop (GitHub UI)
+- Tower (GitHub UI)
+- Gitify (GitHub notifications on your desktop)
 - Better Touch Tool (window snapping, shortcuts, gestures, touch bar customization)
