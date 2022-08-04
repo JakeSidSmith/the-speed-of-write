@@ -14,8 +14,6 @@ I'd been teaching myself code for fun in my spare time (or during classes at sch
 
 I now almost exclusively write TypeScript and work on mainly React and React Native apps, and am currently working full stack on a pair of React and React Native apps with an node backend.
 
-Looking for React/React Native/Node/Express devs to help us launch a new product.
-
 ### The talk
 
 This talk is about how to improve how we write code, in terms of quality, consistency, and speed - how we can better utilize our editors and other tools to save us time.
