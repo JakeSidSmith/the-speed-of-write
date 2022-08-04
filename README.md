@@ -31,7 +31,7 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 - Symbol in file (CMD + G)
 - Adjust settings via UI or JSON (CMD + Comma)
 
-## Useful VSCode settings
+## Useful settings
 
 - Trim trailing whitespace
 - Trim trailing newlines
