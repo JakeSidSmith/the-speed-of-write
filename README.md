@@ -31,6 +31,15 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 - Symbol in file (CMD + G)
 - Adjust settings via UI or JSON (CMD + Comma)
 
+## Useful VSCode settings
+
+- Trim trailing whitespace
+- Trim trailing newlines
+- Add final newline
+- Auto format on edit, paste, save
+- Bracket pair colorization
+- Editor label format
+
 ## Shortcuts
 
 - Open/close the terminal (CMD + Backtick)
@@ -50,15 +59,6 @@ Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some
 - Find all references
 - Find all implementations
 - Quick fix (CMD + Period)
-
-## Useful VSCode settings
-
-- Trim trailing whitespace
-- Trim trailing newlines
-- Add final newline
-- Auto format on edit, paste, save
-- Bracket pair colorization
-- Editor label format
 
 ## Extensions
 
