@@ -22,7 +22,7 @@ For the first part of the session I will be covering some tools, settings, short
 
 After this initial demo I'll open the floor for others to suggest ways in which we can improve how we code - shortcuts, extensions, other tools, etc, and demo some of the suggestions.
 
-Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some from Sublime, and a bunch of custom ones, additionally some of the extensions I use may now come with VSCode or other editors out of the box.
+**Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some from Sublime, and a bunch of custom ones, additionally some of the extensions I use may now come with VSCode or other editors out of the box.**
 
 ## The command pallette
 
