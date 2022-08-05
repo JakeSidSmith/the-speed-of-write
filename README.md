@@ -2,6 +2,10 @@
 
 **Async talk 2022-08-04 by Jake 'Sid' Smith**
 
+## Contribute
+
+If you think of anything you'd like to add, whether it was discussed at the event or not, please open a pull request.
+
 ## Introduction
 
 ### About me
