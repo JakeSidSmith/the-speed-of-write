@@ -123,7 +123,9 @@ Note: commands beginning with `-` means it is unbinding that shortcut.
 ## Other tools
 
 - Dot files repo
-- [Github Desktop (GitHub UI)](https://desktop.github.com/)
-- [Tower (GitHub UI)](https://www.git-tower.com/mac)
+- [Github Desktop (Git UI)](https://desktop.github.com/)
+- [Tower (Git UI)](https://www.git-tower.com/mac)
+- [Sourcetree (Git UI)](https://www.sourcetreeapp.com/)
+- [Git Kraken (Git UI)](https://www.gitkraken.com/)
 - [Gitify (GitHub notifications on your desktop)](https://www.gitify.io/)
 - [Better Touch Tool (window snapping, shortcuts, gestures, touch bar customization)](https://folivora.ai/)
