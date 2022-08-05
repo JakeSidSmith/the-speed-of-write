@@ -30,6 +30,8 @@ Whenever VSCode updates you'll be presented with a page about what they've chang
 
 ## The command pallette
 
+**Note: my keybindings my differ from yours**
+
 - Search for commands (CMD + SHIFT + P)
 - Search for files (CMD + P)
 - Symbol in file (CMD + G)
@@ -49,6 +51,8 @@ Whenever VSCode updates you'll be presented with a page about what they've chang
 You can find these and some more of the settings I use in [here](vscode/settings.json).
 
 ## Shortcuts
+
+**Note: my keybindings my differ from yours**
 
 - Open/close the terminal (CMD + Backtick)
 - Multi-cursor (CMD + Click)
