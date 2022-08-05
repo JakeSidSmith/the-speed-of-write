@@ -29,6 +29,8 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 - Search for commands (CMD + SHIFT + P)
 - Search for files (CMD + P)
 - Symbol in file (CMD + G)
+- Symbol in workspace
+- Symbol in editor
 - Adjust settings via UI or JSON (CMD + Comma)
 
 ## Useful settings
