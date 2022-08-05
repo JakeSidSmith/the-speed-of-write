@@ -1,6 +1,6 @@
 # The Speed of Write
 
-**Async talk 2022-08-04 by Jake 'Sid' Smith**
+**Async talk 2022-08-04 by [Jake 'Sid' Smith](https://twitter.com/JakeSidSmith)**
 
 ## Contribute
 
