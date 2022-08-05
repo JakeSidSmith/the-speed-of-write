@@ -13,11 +13,7 @@
   "it": {
     "description": "Add a jest it block",
     "prefix": "it",
-    "body": [
-      "it('${1:should render}', () => {",
-      "\t${2}",
-      "});"
-    ]
+    "body": ["it('${1:should render}', () => {", "\t${2}", "});"]
   },
   "import React": {
     "description": "Add React import",
@@ -131,18 +127,12 @@
   "useEffect": {
     "description": "useEffect",
     "prefix": "useEffect",
-    "body": [
-      "useEffect(() => {",
-      "\t${1}",
-      "}, [${2}]);"
-    ]
+    "body": ["useEffect(() => {", "\t${1}", "}, [${2}]);"]
   },
   "useMemo": {
     "description": "useMemo",
     "prefix": "useMemo",
-    "body": [
-      "const ${1:result} = useMemo(() => ${2}, [${3}]);"
-    ]
+    "body": ["const ${1:result} = useMemo(() => ${2}, [${3}]);"]
   },
   "useCallback": {
     "description": "useCallback",
@@ -156,23 +146,17 @@
   "useState": {
     "description": "useState",
     "prefix": "useState",
-    "body": [
-      "const [${1:state}, ${2:setState}] = useState(${3:null});"
-    ]
+    "body": ["const [${1:state}, ${2:setState}] = useState(${3:null});"]
   },
   "useRef": {
     "description": "useRef",
     "prefix": "useRef",
-    "body": [
-      "const ${1:myRef} = useRef(${2:null});"
-    ]
+    "body": ["const ${1:myRef} = useRef(${2:null});"]
   },
   "useContext": {
     "description": "useContext",
     "prefix": "useContext",
-    "body": [
-      "const ${1:context} = useContext(${2:MyContext});"
-    ]
+    "body": ["const ${1:context} = useContext(${2:MyContext});"]
   },
   "React memo": {
     "description": "Wraps selected component in React.memo",
