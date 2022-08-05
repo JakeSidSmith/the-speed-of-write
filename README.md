@@ -24,6 +24,10 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 
 **Note: my shortcuts may vary from yours as I am using Atom keybindings, plus some from Sublime, and a bunch of custom ones, additionally some of the extensions I use may now come with VSCode or other editors out of the box.**
 
+## Read the update notes
+
+Whenever VSCode updates you'll be presented with a page about what they've changed/added. If you get time, it is really worth a read, as they're often improving the ease of development, and you'll quickly discover new features on your own.
+
 ## The command pallette
 
 - Search for commands (CMD + SHIFT + P)
