@@ -6,6 +6,8 @@
 
 If you think of anything you'd like to add, whether it was discussed at the event or not, please open a pull request.
 
+Please format stuff before you push. Notes on contributing [here](#contributing-commands).
+
 ## Introduction
 
 ### About me
@@ -145,3 +147,31 @@ Note: commands beginning with `-` means it is unbinding that shortcut.
 - [Git Kraken (Git UI)](https://www.gitkraken.com/)
 - [Gitify (GitHub notifications on your desktop)](https://www.gitify.io/)
 - [Better Touch Tool (window snapping, shortcuts, gestures, touch bar customization)](https://folivora.ai/)
+
+## Contributing commands
+
+Ideally you should be using NodeJS v16 and NPM v8, but others may work fine.
+
+You will first need to install dependencies:
+
+```shell
+npm ci
+```
+
+...or... (but this may install some incorrectly and or update the lock file)
+
+```
+npm i
+```
+
+Run tests with:
+
+```shell
+npm test
+```
+
+Format all files:
+
+```shell
+npm run format
+```
