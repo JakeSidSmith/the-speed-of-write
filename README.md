@@ -40,6 +40,8 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 - Bracket pair colorization
 - Editor label format
 
+You can find these and some more of the settings I use in [here](vscode/settings.json).
+
 ## Shortcuts
 
 - Open/close the terminal (CMD + Backtick)
@@ -111,6 +113,12 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 - Code > Preferences > Configure User Snippets
 - Code > Preferences > Keyboard Shortcuts
 - Key chords (combine 2 keyboard shortcuts)
+
+You can finds some of the snippets I personally use (some are pretty outdated now) [here](vscode/snippets/).
+
+There's also some examples of the key chords I use in [here](vscode/keybindings.json).
+
+Note: commands beginning with `-` means it is unbinding that shortcut.
 
 ## Other tools
 

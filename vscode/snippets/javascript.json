@@ -1,0 +1,50 @@
+{
+  "describe": {
+    "description": "Add a jest describe block",
+    "prefix": "describe",
+    "body": [
+      "describe('${1}', () => {",
+      "\tit('${2:}', () => {",
+      "\t\t${3}",
+      "\t});",
+      "});"
+    ]
+  },
+  "it": {
+    "description": "Add a jest it block",
+    "prefix": "it",
+    "body": ["it('${1:}', () => {", "\t${2}", "});"]
+  },
+  "Use Strict": {
+    "description": "Add 'use strict'; statement",
+    "prefix": "strict",
+    "body": "'use strict';\n\n"
+  },
+  "IIFE": {
+    "description": "Setup strict IIFE",
+    "prefix": "IIFE",
+    "body": [
+      "'use strict';",
+      "",
+      "(function () {",
+      "",
+      "\t${1}",
+      "",
+      "})();",
+      ""
+    ]
+  },
+  "CTX": {
+    "description": "Get canvas & context",
+    "prefix": "ctx",
+    "body": [
+      "var canvas = document.getElementById('${1:canvas}');",
+      "var ctx = canvas.getContext('${2:2d}');"
+    ]
+  },
+  "Eslint Disable Next Line": {
+    "description": "eslint-disable-next-line etc",
+    "prefix": "eslint",
+    "body": ["// eslint-disable-next-line ${1:no-console}"]
+  }
+}

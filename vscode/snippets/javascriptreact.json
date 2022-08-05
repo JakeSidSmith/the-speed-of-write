@@ -1,0 +1,7 @@
+{
+  "Eslint Disable Next Line": {
+    "description": "eslint-disable-next-line etc",
+    "prefix": "eslint",
+    "body": ["// eslint-disable-next-line ${1:no-console}"]
+  }
+}

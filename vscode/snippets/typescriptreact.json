@@ -1,0 +1,187 @@
+{
+  "describe": {
+    "description": "Add a jest describe block",
+    "prefix": "describe",
+    "body": [
+      "describe('${1}', () => {",
+      "\tit('${2:should render}', () => {",
+      "\t\t${3}",
+      "\t});",
+      "});"
+    ]
+  },
+  "it": {
+    "description": "Add a jest it block",
+    "prefix": "it",
+    "body": [
+      "it('${1:should render}', () => {",
+      "\t${2}",
+      "});"
+    ]
+  },
+  "import React": {
+    "description": "Add React import",
+    "prefix": "import React",
+    "body": ["import React${1} from 'react';"]
+  },
+  "import ReactNative": {
+    "description": "Add React Native import",
+    "prefix": "import ReactNative",
+    "body": ["import ReactNative${1} from 'react-native';"]
+  },
+  "import ReactDOM": {
+    "description": "Add ReactDOM import",
+    "prefix": "import ReactDOM",
+    "body": ["import ReactDOM from 'react-dom';"]
+  },
+  "import * as React": {
+    "description": "Add React * import",
+    "prefix": "import * as React",
+    "body": ["import * as React from 'react';"]
+  },
+  "import * as ReactDOM": {
+    "description": "Add ReactDOM * import",
+    "prefix": "import * as ReactDOM",
+    "body": ["import * as ReactDOM from 'react-dom';"]
+  },
+  "interface": {
+    "description": "Create an interface",
+    "prefix": "interface",
+    "body": ["interface ${1:MyInterface} {", "\t${2:key}: ${3:value};", "}"]
+  },
+  "OwnProps": {
+    "description": "Create an OwnProps interface",
+    "prefix": "OwnProps",
+    "body": ["interface OwnProps {", "\t${1:key}: ${2:value};", "}"]
+  },
+  "DispatchProps": {
+    "description": "Create a DispatchProps interface",
+    "prefix": "DispatchProps",
+    "body": [
+      "interface DispatchProps {",
+      "\t${1:action}: typeof ${1:action};",
+      "}"
+    ]
+  },
+  "StateProps": {
+    "description": "Create a StateProps type",
+    "prefix": "StateProps",
+    "body": ["type StateProps = Pick<StoreState, '${1:key}'${2}>;"]
+  },
+  "Props": {
+    "description": "Create a Props type",
+    "prefix": "Props",
+    "body": ["type Props = OwnProps & StateProps & DispatchProps${1};"]
+  },
+  "React Class": {
+    "description": "Create a React PureComponent",
+    "prefix": "ReactClass",
+    "body": [
+      "export class ${1:ComponentClass} extends PureComponent<${2:Props}> {",
+      "",
+      "\tpublic render () {",
+      "\t\treturn (",
+      "\t\t\t${3:<p>Hello, World!</p>}",
+      "\t\t);",
+      "\t}",
+      "",
+      "}",
+      ""
+    ]
+  },
+  "React Component": {
+    "description": "Create a React Function Component",
+    "prefix": "ReactComponent",
+    "body": [
+      "interface ${1:Props} {",
+      "\t${2:children: ReactNode | readonly ReactNode[];}",
+      "\t${3}",
+      "}",
+      "",
+      "const ${4:MyComponent} = React.memo((props: ${1:Props}) => {${6}",
+      "\treturn (",
+      "\t\t${5:<p>Hello, World!</p>}",
+      "\t);",
+      "});",
+      "",
+      "${4:MyComponent}.displayName = '${4:MyComponent}';"
+    ]
+  },
+  "mapStateToProps": {
+    "description": "Create a mapStateToProps function",
+    "prefix": "mapStateToProps",
+    "body": [
+      "export const mapStateToProps = (state: Pick<StoreState, '${1:key}'${2}>): StateProps => ({",
+      "\t${3:key}: ${4:value},",
+      "});"
+    ]
+  },
+  "Connect Component": {
+    "description": "Connect a React component to a redux store",
+    "prefix": "connect",
+    "body": [
+      "export default connect(${1:mapStateToProps}, ${2:{action}})(${3:ComponentName});"
+    ]
+  },
+  "Eslint Disable Next Line": {
+    "description": "eslint-disable-next-line etc",
+    "prefix": "eslint",
+    "body": ["// eslint-disable-next-line ${1:no-console}"]
+  },
+  "useEffect": {
+    "description": "useEffect",
+    "prefix": "useEffect",
+    "body": [
+      "useEffect(() => {",
+      "\t${1}",
+      "}, [${2}]);"
+    ]
+  },
+  "useMemo": {
+    "description": "useMemo",
+    "prefix": "useMemo",
+    "body": [
+      "const ${1:result} = useMemo(() => ${2}, [${3}]);"
+    ]
+  },
+  "useCallback": {
+    "description": "useCallback",
+    "prefix": "useCallback",
+    "body": [
+      "const ${1:callback} = useCallback(() => {",
+      "\t${2}",
+      "}, [${3}]);"
+    ]
+  },
+  "useState": {
+    "description": "useState",
+    "prefix": "useState",
+    "body": [
+      "const [${1:state}, ${2:setState}] = useState(${3:null});"
+    ]
+  },
+  "useRef": {
+    "description": "useRef",
+    "prefix": "useRef",
+    "body": [
+      "const ${1:myRef} = useRef(${2:null});"
+    ]
+  },
+  "useContext": {
+    "description": "useContext",
+    "prefix": "useContext",
+    "body": [
+      "const ${1:context} = useContext(${2:MyContext});"
+    ]
+  },
+  "React memo": {
+    "description": "Wraps selected component in React.memo",
+    "prefix": "React.memo",
+    "body": ["React.memo(${1:$TM_SELECTED_TEXT})"]
+  },
+  "export default": {
+    "description": "Exports the selected variable",
+    "prefix": "export default",
+    "body": ["export default $TM_SELECTED_TEXT"]
+  }
+}

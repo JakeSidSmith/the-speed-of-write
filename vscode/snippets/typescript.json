@@ -1,0 +1,48 @@
+{
+  "describe": {
+    "description": "Add a jest describe block",
+    "prefix": "describe",
+    "body": [
+      "describe('${1}', () => {",
+      "\tit('${2:}', () => {",
+      "\t\t${3}",
+      "\t});",
+      "});"
+    ]
+  },
+  "it": {
+    "description": "Add a jest it block",
+    "prefix": "it",
+    "body": ["it('${1:}', () => {", "\t${2}", "});"]
+  },
+  "interface": {
+    "description": "Create an interface",
+    "prefix": "interface",
+    "body": ["interface ${1:MyInterface} {", "\t${2:key}: ${3:value};", "}"]
+  },
+  "import React": {
+    "description": "Add React import",
+    "prefix": "import React",
+    "body": ["import React from 'react';"]
+  },
+  "import ReactDOM": {
+    "description": "Add ReactDOM import",
+    "prefix": "import ReactDOM",
+    "body": ["import ReactDOM from 'react-dom';"]
+  },
+  "import * as React": {
+    "description": "Add React * import",
+    "prefix": "import * as React",
+    "body": ["import * as React from 'react';"]
+  },
+  "import * as ReactDOM": {
+    "description": "Add ReactDOM * import",
+    "prefix": "import * as ReactDOM",
+    "body": ["import * as ReactDOM from 'react-dom';"]
+  },
+  "Eslint Disable Next Line": {
+    "description": "eslint-disable-next-line etc",
+    "prefix": "eslint",
+    "body": ["// eslint-disable-next-line ${1:no-console}"]
+  }
+}

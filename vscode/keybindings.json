@@ -1,0 +1,82 @@
+[
+  {
+    "key": "cmd+r",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "cmd+g",
+    "command": "-editor.action.nextMatchFindAction"
+  },
+  {
+    "key": "cmd+g",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "cmd+r cmd+c",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "React Component" }
+  },
+  {
+    "key": "cmd+r cmd+m",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "React memo" }
+  },
+  {
+    "key": "cmd+r cmd+i",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "import React" }
+  },
+  {
+    "key": "cmd+r cmd+n",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "import ReactNative" }
+  },
+  {
+    "key": "cmd+r cmd+d",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "import ReactDOM" }
+  },
+  {
+    "key": "cmd+u",
+    "command": "-cursorUndo"
+  },
+  {
+    "key": "cmd+u cmd+e",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "useEffect" }
+  },
+  {
+    "key": "cmd+u cmd+m",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "useMemo" }
+  },
+  {
+    "key": "cmd+u cmd+c",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "useCallback" }
+  },
+  {
+    "key": "cmd+u cmd+s",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "useState" }
+  },
+  {
+    "key": "cmd+u cmd+r",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "useRef" }
+  },
+  {
+    "key": "cmd+u cmd+x",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "useContext" }
+  },
+  {
+    "key": "cmd+e",
+    "command": "-actions.findWithSelection"
+  },
+  {
+    "key": "cmd+e cmd+d",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "export default" }
+  }
+]

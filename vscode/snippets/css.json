@@ -1,0 +1,22 @@
+{
+  "index.css": {
+    "description": "Basic CSS styles",
+    "prefix": "html",
+    "body": [
+      "* {",
+      "\tbox-sizing: border-box;",
+      "}",
+      "",
+      "html,",
+      "body {",
+      "\tmargin: 0;",
+      "\tpadding: 0;",
+      "\tfont-family: arial, helvetica, sans-serif;",
+      "\tfont-size: 14px;",
+      "\tcolor: ${1:#333};",
+      "\tbackground-color: ${2:#FFF};",
+      "}",
+      ""
+    ]
+  }
+}
