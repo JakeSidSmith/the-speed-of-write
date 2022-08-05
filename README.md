@@ -32,6 +32,8 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 
 Whenever VSCode updates you'll be presented with a page about what they've changed/added. If you get time, it is really worth a read, as they're often improving the ease of development, and you'll quickly discover new features on your own.
 
+You can access this at any time. Just search for "Show Release Notes" in the command pallette.
+
 ## The command pallette
 
 **Note: my keybindings my differ from yours - use the command pallette to quickly find your keybindings**
