@@ -64,46 +64,47 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 
 ### Code quality/consistency
 
-- Editorconfig
-- Prettier
-- Eslint
-- Code spell checker
+- [Editorconfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Code spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ### Improve speed
 
-- Auto close tag
-- Change case
-- Sort lines
-- Remove empty lines
-- File utils (duplicate file)
-- Camel case navigation
+- [Auto close tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [Change case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+- [Remove empty lines](https://marketplace.visualstudio.com/items?itemName=usernamehw.remove-empty-lines)
+- [File utils (duplicate file)](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
+- [Camel case navigation](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 
 ### Improve collaboration
 
-- Git blame/lens
-- Live share
-- WSL
+- [Git blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Live share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
+- [WSL (run Linux in Windows)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
 ### Visibility
 
-- Markdown preview
-- Color highlight
-- TODO highlight
-- TODO tree
-- Word count
-- File size
-- Presentation mode
-- Polacode
+- Markdown preview - now appears to be built in
+- [Color highlight - somewhat built in](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [TODO highlight - probably built in](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [TODO tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+- [Word count](https://marketplace.visualstudio.com/items?itemName=rido3.wordcount)
+- [File size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size)
+- [Presentation mode - probably built in](https://marketplace.visualstudio.com/items?itemName=jspolancor.presentationmode)
+- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
 ### Refactoring
 
-- React refactor
-- Resharper (Visual Studio - expensive)
+- [React refactor](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks-refactor)
+- [Resharper (.NET - Visual Studio - expensive)](https://www.jetbrains.com/resharper/)
 
 ### Mind blowing
 
-- Quokka (run JavaScript in VSCode)
-- GitHub copilot (use AI to write your code)
+- [Quokka.js (run JavaScript in VSCode)](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [GitHub copilot (use AI to write your code)](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
 ## Snippets and custom shortcuts
 
@@ -114,7 +115,7 @@ After this initial demo I'll open the floor for others to suggest ways in which 
 ## Other tools
 
 - Dot files repo
-- Github Desktop (GitHub UI)
-- Tower (GitHub UI)
-- Gitify (GitHub notifications on your desktop)
-- Better Touch Tool (window snapping, shortcuts, gestures, touch bar customization)
+- [Github Desktop (GitHub UI)](https://desktop.github.com/)
+- [Tower (GitHub UI)](https://www.git-tower.com/mac)
+- [Gitify (GitHub notifications on your desktop)](https://www.gitify.io/)
+- [Better Touch Tool (window snapping, shortcuts, gestures, touch bar customization)](https://folivora.ai/)
